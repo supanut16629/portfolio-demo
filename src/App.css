@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  min-width: 100vh;
+  height: 9000px;
+  background-image: url("./image/dark-bg2.jpg");
+  background-repeat:repeat-y;
+  font-family: monospace;
 }
 
 .App-logo {
@@ -35,4 +40,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-bar-height{
+  height: 70.46px;
+}
+
+.header-bar-bg{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin:0;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a.underline-hover-effect{
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline-hover-effect{
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+.underline-hover-effect::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FFF;
+  background-image: linear-gradient(to right,rgb(241, 255, 252) ,rgb(73, 81, 80));
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect:hover::before{
+  width: 100%;
+  left: 0;
+  right: auto;
 }

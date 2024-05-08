@@ -1,0 +1,24 @@
+{
+    "header":{
+        "test":" test-text",
+        "menu-nav": [
+            "About Me",
+            "Contact",
+            "Project"
+        ],
+        "lng":"en"
+    },
+    "body":{
+        "welcome-sec": {
+            "welcome": "Welcome to",
+            "pfo": "PORTFOLIO",
+            "prefix" : "Mr.",
+            "name": "Supanut",
+            "surname":"Klakerdpol",
+            "pos-job": "Full Stack Developer",
+            "spec-text": "( New Graduate )",
+            "btn-pj": "View Work",
+            "btn-ct": "Contact"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "header":{
+        "test":" เทส",
+        "menu-nav": [
+            "เกี่ยวกับฉัน",
+            "ติดต่อ",
+            "ผลงาน"
+        ],
+        "lng":"th"
+    },
+    "body":{
+        "welcome-sec": {
+            "welcome": "ยินดีต้อนรับสู่",
+            "pfo": "PORTFOLIO ของ",
+            "prefix" : "นาย",
+            "name": "ศุภณัฐ",
+            "surname":"กล้าเกิดผล",
+            "pos-job": "Full Stack Developer",
+            "spec-text": "( บัณฑิตจบใหม่ )",
+            "btn-pj": "ดูผลงานที่นี่",
+            "btn-ct": "ติดต่อฉัน"
+        }
+    }
+}
