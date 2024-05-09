@@ -2,9 +2,9 @@
     "header":{
         "test":" test-text",
         "menu-nav": [
-            "About Me",
-            "Contact",
-            "Project"
+            {"label":"About Me","value":"aboutMe"},
+            {"label":"Contact","value":"contact"},
+            {"label":"Project","value":"project"}
         ],
         "lng":"en"
     },
@@ -19,6 +19,15 @@
             "spec-text": "( New Graduate )",
             "btn-pj": "View Work",
             "btn-ct": "Contact"
+        },
+        "aboutMe-sec":{
+            "title": "About Me"
+        },
+        "contact-sec":{
+            "title": "Contact"
+        },
+        "project-sec":{
+            "title": "Project"
         }
     }
 }

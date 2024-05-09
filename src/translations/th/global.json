@@ -1,10 +1,10 @@
 {
     "header":{
-        "test":" เทส",
+        "test":" เทส-ข้อความ",
         "menu-nav": [
-            "เกี่ยวกับฉัน",
-            "ติดต่อ",
-            "ผลงาน"
+            {"label":"เกี่ยวกับฉัน","value":"aboutMe"},
+            {"label":"ติดต่อ","value":"contact"},
+            {"label":"ผลงาน","value":"project"}
         ],
         "lng":"th"
     },
@@ -19,6 +19,15 @@
             "spec-text": "( บัณฑิตจบใหม่ )",
             "btn-pj": "ดูผลงานที่นี่",
             "btn-ct": "ติดต่อฉัน"
+        },
+        "aboutMe-sec":{
+            "title": "เกี่ยวกับฉัน"
+        },
+        "contact-sec":{
+            "title": "ติดต่อ"
+        },
+        "project-sec":{
+            "title": "ผลงานของฉัน"
         }
     }
 }

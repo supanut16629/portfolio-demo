@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   min-width: 100vh;
-  height: 9000px;
   background-image: url("./image/dark-bg2.jpg");
   background-repeat:repeat-y;
   font-family: monospace;
@@ -47,7 +46,8 @@
 }
 
 .header-bar-bg{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index:0,
 }
 
 .content{
@@ -89,3 +89,101 @@ a.underline-hover-effect{
   left: 0;
   right: auto;
 }
+
+.menu-lang{
+  position: absolute;
+  width:4rem;
+  margin-top: 1px;
+}
+
+.menu-lang li{
+  list-style-type: none;
+}
+
+.menu-lang li:hover{
+  background-color: hsl(0, 0%, 84%);
+}
+
+.body-sec{
+  padding-top: 71px;
+}
+
+.firstSec{
+  /* height: 500px; */
+  max-height: 1000px;
+  /* background-color: #00556c; */
+  width: 100%;
+}
+.wrapper-image{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+  /* position: relative; */
+}
+
+
+.wrapper-btn{
+  margin-top: 1rem;
+}
+
+.wrapper-btn button{
+  font-weight: 500;
+  border-radius: 2px;
+  margin: 1% 6rem;
+  padding: 0.3rem 1rem;
+}
+
+.btn-pj{
+  background-color: hsla(284, 100%, 62%, 0.8);
+  border:  1px solid hsla(284, 100%, 62%, 0.8);
+}
+
+.btn-ct{
+  border: 1px solid #fff
+}
+
+.text-center-image{
+  /* margin:0 auto; */
+  text-align: start; /* Center inline elements horizontally */
+}
+.text-center-image p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text-center-image h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text-center-image h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.aboutMe{
+  height: 500px;
+  background-color: #00556c;
+  margin: 1rem;
+}
+.contact{
+  height: 500px;
+  background-color: #00556c;
+  margin: 1rem;
+}
+.project{
+  height: 500px;
+  background-color: #00556c;
+  margin: 1rem;
+}
+footer{
+  color:#FFF;
+  height: 200px;
+  background-color: #2a2c2f;
+}
+
+
+
