@@ -57,6 +57,11 @@
   margin:0;
 }
 
+.content h3{
+  font-size: 36px;
+  font-weight: bold;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -165,18 +170,52 @@ a.underline-hover-effect{
 }
 
 .aboutMe{
-  height: 500px;
-  background-color: #00556c;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   margin: 1rem;
 }
+.aboutMe .body-box{
+  /* border: 1px solid #fff700; */
+  display: flex;
+  flex-direction: row;
+}
+.aboutMe .my-image-box{
+  /* border: 1px solid #fff700; */
+}
+
+.aboutMe .about-me-box{
+  /* border: 1px solid #fff700; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.title-box{
+  /* border: 1px solid #fff700; */
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
 .contact{
-  height: 500px;
-  background-color: #00556c;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   margin: 1rem;
 }
 .project{
-  height: 500px;
-  background-color: #00556c;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   margin: 1rem;
 }
 footer{
