@@ -22,11 +22,15 @@
         },
         "aboutMe-sec":{
             "title": "About Me",
+            "title-name":"Name :",
             "prefix" : "Mr.",
             "name": "Supanut",
             "surname":"Klakerdpol",
+            "title-nickname":"Nickname :",
             "nickname":"Krit",
+            "title-bd":"Birthday :",
             "text-birthday": "March 14 2002",
+            "title-edu":"Education :",
             "education":"Bachelor's degree in Computer Engineering Faculty of Engineering Kasetsart University 2024",
             "education2":"GPA : 3.32 (second class honors)"
 
