@@ -14,7 +14,9 @@ const Body = ({aboutMe,contact,project,scrollToSection}) => {
       <section className='firstSec'>
         <ImageSlider imageURLs={imageURLs} scrollToSection={scrollToSection}/>
       </section>
-      <section ref={aboutMe} className='aboutMe'><h3>{t("body.aboutMe-sec.title")}</h3></section>
+      <section ref={aboutMe} className='aboutMe'>
+        <h3>{t("body.aboutMe-sec.title")}</h3>
+      </section>
       <section ref={contact} className='contact'><h3>{t("body.contact-sec.title")}</h3></section>
       <section ref={project} className='project'><h3>{t("body.project-sec.title")}</h3></section>
     </div>
