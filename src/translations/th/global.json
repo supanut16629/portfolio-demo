@@ -21,13 +21,55 @@
             "btn-ct": "ติดต่อฉัน"
         },
         "aboutMe-sec":{
-            "title": "เกี่ยวกับฉัน"
+            "title": "เกี่ยวกับฉัน",
+            "prefix" : "นาย",
+            "name": "ศุภณัฐ",
+            "surname":"กล้าเกิดผล",
+            "nickname":"กฤต",
+            "text-birthday": "วันที่ 14 มีนาคม พ.ศ. 2545",
+            "education":"ปริญญาตรี สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ ,2567",
+            "education2":"GPA : 3.32 (เกียรตินิยมอันดับที่ 2)"
         },
         "contact-sec":{
-            "title": "ติดต่อ"
+            "title": "ติดต่อ",
+            "phone": "+66 096-819-2626",
+            "email": "supanut.krit.kla@gmail.com",
+            "facebook": "Supanut Klakerdpol",
+            "link-facebook":"https://www.facebook.com/profile.php?id=100003351130474",
+            "line": "096-819-2626",
+            "github": "supanut16629",
+            "link-github": "https://github.com/supanut16629",
+            "address": "26 ซอย 7 หมู่บ้านเศรษฐกิจ ถนนเพชรเกษม บางแคเหนือ บางแค กรุงเทพมหานคร , 10160"
         },
         "project-sec":{
-            "title": "ผลงานของฉัน"
+            "title": "ผลงานของฉัน",
+            "all-project": [
+                {
+                    "img":"",
+                    "name-pj": "Final Project (Auto Document Flow)",
+                    "duration": "พฤศจิกายน 2566 - มีนาคม 2567",
+                    "description": "ฉันพัฒนาเว็บแอปพลิเคชันเพื่อให้ผู้อนุมัติเอกสารสามารถอนุมัติเอกสารได้แบบอัตโนมัติ การทำงานคล้ายกับแอปพลิเคชัน RPA แต่จัดการในขั้นตอนการอนุมัติเอกสารโดยใช้ React.js, Node.js และ MongoDB",
+                    "list-tools":["react","node","express","mongodb","jwt","axios","dotenv","web socket","javascript","html","css","mongoose"],
+                    "link-source-code": "https://github.com/supanut16629/AutoDocumentFlow"
+                },
+                {
+                    "img":"",
+                    "name-pj": "Computer Game Development Project",
+                    "duration": "กรกฎาคม - ตุลาคม 2566",
+                    "description": "ฉันสร้างเกมแอคชั่น 2D top-down ชื่อว่า 'Mythic Warrior Game' โดยใช้ C# และ Unity สำหรับโครงการวิชาComputer Game Development",
+                    "list-tools":["c#","unity"],
+                    "link-source-code": "https://github.com/supanut16629/MythicWarriorGame-2d_Top_Down_Game-Unity"
+                },
+                {
+                    "img":"",
+                    "name-pj": "Moblie Application Project",
+                    "duration": "กรกฎาคม - ตุลาคม 2565",
+                    "description": "ฉันพัฒนาแอปพลิเคชันการจัดส่งบนมือถือโดยใช้ Expo Go, React Native และ Firebase",
+                    "list-tools":["react-native","redux","css","javascript","firebase","expo go"],
+                    "link-source-code": "https://github.com/supanut16629/Project_MoblieApp_DeliveryApp"
+                }
+
+            ]
         }
     }
 }
