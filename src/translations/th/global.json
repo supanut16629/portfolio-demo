@@ -22,17 +22,18 @@
         },
         "aboutMe-sec":{
             "title": "เกี่ยวกับฉัน",
-            "title-name":"ชื่อ-นามสกุล :",
+            "title-name":"ชื่อ-นามสกุล : ",
             "prefix" : "นาย",
             "name": "ศุภณัฐ",
             "surname":"กล้าเกิดผล",
-            "title-nickname":"ชื่อเล่น :",
+            "title-nickname":"ชื่อเล่น : ",
             "nickname":"กฤต",
-            "title-bd":"เกิดวันที่ :",
+            "title-bd":"เกิดวันที่ : ",
+            "titleAge": "อายุ : ",
+            "yearBirth": 2002,
             "text-birthday": "วันที่ 14 มีนาคม พ.ศ. 2545",
-            "title-edu":"ประวัติการศึกษา :",
-            "education":"ปริญญาตรี สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ ,2567",
-            "education2":"GPA : 3.32 (เกียรตินิยมอันดับที่ 2)"
+            "title-edu":"ประวัติการศึกษา : ",
+            "education":"ปริญญาตรี สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ ,2567 ,GPA : 3.32 (เกียรตินิยมอันดับที่ 2)"
         },
         "contact-sec":{
             "title": "ติดต่อ",
@@ -40,37 +41,38 @@
             "email": "supanut.krit.kla@gmail.com",
             "facebook": "Supanut Klakerdpol",
             "link-facebook":"https://www.facebook.com/profile.php?id=100003351130474",
-            "line": "096-819-2626",
+            "line": "k12369887456321",
             "github": "supanut16629",
             "link-github": "https://github.com/supanut16629",
-            "address": "26 ซอย 7 หมู่บ้านเศรษฐกิจ ถนนเพชรเกษม บางแคเหนือ บางแค กรุงเทพมหานคร , 10160"
+            "address": "26 ซอย 7 หมู่บ้านเศรษฐกิจ ถนนเพชรเกษม บางแคเหนือ บางแค กรุงเทพมหานคร , 10160",
+            "linkAddressMap": "https://www.google.com/maps/search/%E0%B8%8B%E0%B8%AD%E0%B8%A2+%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%81%E0%B8%B4%E0%B8%88+7+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3/@13.7201639,100.3724325,16z/data=!3m1!4b1?entry=ttu"
         },
-        "project-sec":{
+        "projectSec":{
             "title": "ผลงานของฉัน",
-            "all-project": [
+            "allProject": [
                 {
-                    "img":"",
-                    "name-pj": "Final Project (Auto Document Flow)",
+                    "img":"examFinalProject.png",
+                    "namePj": "Final Project (Auto Document Flow)",
                     "duration": "พฤศจิกายน 2566 - มีนาคม 2567",
                     "description": "ฉันพัฒนาเว็บแอปพลิเคชันเพื่อให้ผู้อนุมัติเอกสารสามารถอนุมัติเอกสารได้แบบอัตโนมัติ การทำงานคล้ายกับแอปพลิเคชัน RPA แต่จัดการในขั้นตอนการอนุมัติเอกสารโดยใช้ React.js, Node.js และ MongoDB",
-                    "list-tools":["react","node","express","mongodb","jwt","axios","dotenv","web socket","javascript","html","css","mongoose"],
-                    "link-source-code": "https://github.com/supanut16629/AutoDocumentFlow"
+                    "listTools":["react","node","express","mongodb","jwt","axios","dotenv","web socket","javascript","html","css","mongoose"],
+                    "linkSourceCode": "https://github.com/supanut16629/AutoDocumentFlow"
                 },
                 {
-                    "img":"",
-                    "name-pj": "Computer Game Development Project",
+                    "img":"mt-warrior.png",
+                    "namePj": "Computer Game Development Project",
                     "duration": "กรกฎาคม - ตุลาคม 2566",
                     "description": "ฉันสร้างเกมแอคชั่น 2D top-down ชื่อว่า 'Mythic Warrior Game' โดยใช้ C# และ Unity สำหรับโครงการวิชาComputer Game Development",
-                    "list-tools":["c#","unity"],
-                    "link-source-code": "https://github.com/supanut16629/MythicWarriorGame-2d_Top_Down_Game-Unity"
+                    "listTools":["c#","unity"],
+                    "linkSourceCode": "https://github.com/supanut16629/MythicWarriorGame-2d_Top_Down_Game-Unity"
                 },
                 {
                     "img":"",
-                    "name-pj": "Moblie Application Project",
+                    "namePj": "Moblie Application Project",
                     "duration": "กรกฎาคม - ตุลาคม 2565",
                     "description": "ฉันพัฒนาแอปพลิเคชันการจัดส่งบนมือถือโดยใช้ Expo Go, React Native และ Firebase",
-                    "list-tools":["react-native","redux","css","javascript","firebase","expo go"],
-                    "link-source-code": "https://github.com/supanut16629/Project_MoblieApp_DeliveryApp"
+                    "listTools":["react-native","redux","css","javascript","firebase","expo go"],
+                    "linkSourceCode": "https://github.com/supanut16629/Project_MoblieApp_DeliveryApp"
                 }
 
             ]

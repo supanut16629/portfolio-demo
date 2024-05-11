@@ -22,17 +22,18 @@
         },
         "aboutMe-sec":{
             "title": "About Me",
-            "title-name":"Name :",
+            "title-name":"Name : ",
             "prefix" : "Mr.",
             "name": "Supanut",
             "surname":"Klakerdpol",
-            "title-nickname":"Nickname :",
+            "title-nickname":"Nickname : ",
             "nickname":"Krit",
-            "title-bd":"Birthday :",
+            "title-bd":"Birthday : ",
+            "titleAge": "Age : ",
+            "yearBirth": 2002,
             "text-birthday": "March 14 2002",
-            "title-edu":"Education :",
-            "education":"Bachelor's degree in Computer Engineering Faculty of Engineering Kasetsart University 2024",
-            "education2":"GPA : 3.32 (second class honors)"
+            "title-edu":"Education : ",
+            "education":"Bachelor's degree in Computer Engineering Faculty of Engineering Kasetsart University 2024 ,GPA : 3.32 (second class honors)"
 
         },
         "contact-sec":{
@@ -41,38 +42,39 @@
             "email": "supanut.krit.kla@gmail.com",
             "facebook": "Supanut Klakerdpol",
             "link-facebook":"https://www.facebook.com/profile.php?id=100003351130474",
-            "line": "096-819-2626",
+            "line": "k12369887456321",
             "github": "supanut16629",
             "link-github": "https://github.com/supanut16629",
-            "address": "26 Soi 7 Setthakit Village Petchkasem Road BangKhaeNuea BangKhae Bangkok ,10160"
+            "address": "26 Soi 7 Setthakit Village Petchkasem Road BangKhaeNuea BangKhae Bangkok ,10160",
+            "linkAddressMap": "https://www.google.com/maps/search/%E0%B8%8B%E0%B8%AD%E0%B8%A2+%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%81%E0%B8%B4%E0%B8%88+7+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3/@13.7201639,100.3724325,16z/data=!3m1!4b1?entry=ttu"
 
         },
-        "project-sec":{
+        "projectSec":{
             "title": "Project",
-            "all-project": [
+            "allProject": [
                 {
-                    "img":"",
-                    "name-pj": "Final Project (Auto Document Flow)",
+                    "img":"examFinalProject.png",
+                    "namePj": "Final Project (Auto Document Flow)",
                     "duration": "November 2023 - March 2024",
                     "description": "I developed a web application to automate document flow in projects. It works similarly to an RPA application, but only manages the document approval flow, utilizing React.js, Node.js and MongoDB.",
-                    "list-tools":["react","node","express","mongodb","jwt","axios","dotenv","web socket","javascript","html","css","mongoose"],
-                    "link-source-code": "https://github.com/supanut16629/AutoDocumentFlow"
+                    "listTools":["react","node","express","mongodb","jwt","axios","dotenv","web socket","javascript","html","css","mongoose"],
+                    "linkSourceCode": "https://github.com/supanut16629/AutoDocumentFlow"
                 },
                 {
-                    "img":"",
-                    "name-pj": "Computer Game Development Project",
+                    "img":"mt-warrior.png",
+                    "namePj": "Computer Game Development Project",
                     "duration": "July - October 2023",
                     "description": "I created a 2D top-down action game, 'Mythic Warrior Game', using C# and Unity for a Computer Game Development project.",
-                    "list-tools":["c#","unity"],
-                    "link-source-code": "https://github.com/supanut16629/MythicWarriorGame-2d_Top_Down_Game-Unity"
+                    "listTools":["c#","unity"],
+                    "linkSourceCode": "https://github.com/supanut16629/MythicWarriorGame-2d_Top_Down_Game-Unity"
                 },
                 {
                     "img":"",
-                    "name-pj": "Moblie Application Project",
+                    "namePj": "Moblie Application Project",
                     "duration": "July - October 2022",
                     "description": "I developed a mobile delivery application using Expo Go, React Native, and Firebase",
-                    "list-tools":["react-native","redux","css","javascript","firebase","expo go"],
-                    "link-source-code": "https://github.com/supanut16629/Project_MoblieApp_DeliveryApp"
+                    "listTools":["react-native","redux","css","javascript","firebase","expo go"],
+                    "linkSourceCode": "https://github.com/supanut16629/Project_MoblieApp_DeliveryApp"
                 }
 
             ]

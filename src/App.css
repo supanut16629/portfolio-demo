@@ -185,6 +185,18 @@ a.underline-hover-effect{
 .aboutMe .my-image-box{
   /* border: 1px solid #fff700; */
 }
+.aboutMe h6{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.w-ct-100{
+  width: 100px;
+  min-width: 100px;
+}
+.aboutMe p{
+  font-size: 15px;
+}
 
 .aboutMe .about-me-box{
   /* border: 1px solid #fff700; */
@@ -210,6 +222,27 @@ a.underline-hover-effect{
   padding: 1rem;
   margin: 1rem;
 }
+
+.frame-pj{
+  min-width: 900px;
+}
+
+.box-pj h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0.5rem 0 0 0 ;
+}
+
+.style-tool{
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.5rem;
+  background-color:#353535;
+  color: #FFF;
+  border-radius: 5px;
+  border: 3px solid #51ff00;
+  cursor: default;
+
+}
 .project{
   border: 1px solid #fff;
   border-radius: 5px;
@@ -218,6 +251,28 @@ a.underline-hover-effect{
   padding: 1rem;
   margin: 1rem;
 }
+
+.custom-btn-sc{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border:none;
+  background-color: #ff4d00;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out,color 0.3s ease-in-out;
+}
+
+.custom-btn-sc:hover{
+  background-color: #ff4d00cc;
+  color: #fff;
+  border: 1px solid #ff4d00cc;
+
+}
+
+
 footer{
   color:#FFF;
   height: 200px;
